@@ -1,0 +1,274 @@
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 14BE860 UNKNOWN 62E860
+    Param: ??? ??? ???
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 4084890E ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16D6860 check2_str_to_FString_846860
+    Param: &L"123456" ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 101C880E &L"123456"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16CAF10 check2_GetUnicodeStringLength_83AF10
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 06000000 ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 209EF80 UNKNOWN 120EF80
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: B046890E ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16D6860 check2_str_to_FString_846860
+    Param: &L"C3F6B4473DB70B38B554F6F3C2E6058C" ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 3085890E &L"C3F6B4473DB70B38B554F6F3C2E6058C"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 139B530 check2_md5_50B530
+    Param: &L"B186E505F28D4542FEC3C2A8A072A97B" ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: F083890E &L"B186E505F28D4542FEC3C2A8A072A97B"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16CAF10 check2_GetUnicodeStringLength_83AF10
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 20000000 ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C82A0 UNKNOWN 8382A0
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 8010840C &L"B186E505"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 139B120 UNKNOWN 50B120
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: B186E505 ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C82A0 UNKNOWN 8382A0
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 0002840C &L"F28D4542"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 139B120 UNKNOWN 50B120
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: F28D4542 ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C82A0 UNKNOWN 8382A0
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 8005840C &L"FEC3C2A8"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 139B120 UNKNOWN 50B120
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: FEC3C2A8 ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C82A0 UNKNOWN 8382A0
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 400E840C &L"A072A97B"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 139B120 UNKNOWN 50B120
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: A072A97B ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C2340 UNKNOWN 832340
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 000F840C &L"-1133166080"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16CAF10 check2_GetUnicodeStringLength_83AF10
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 0B000000 ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C2CA0 UNKNOWN 832CA0
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 004275BC ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 139B340 check2_get_a_md5_50B340
+    Param: &L"89213E12A709DC4147038665F286D1A3" ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: D044890E &L"89213E12A709DC4147038665F286D1A3"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 209EF80 UNKNOWN 120EF80
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 4084890E ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16D6860 check2_str_to_FString_846860
+    Param: &L"123456" ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: F066880E &L"123456"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 139B530 check2_md5_50B530
+    Param: &L"E10ADC3949BA59ABBE56E057F20F883E" ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: E084890E &L"E10ADC3949BA59ABBE56E057F20F883E"
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C5C60 check2_main_835C60
+    Param: ??? ??? ???
+INT3 断点于 <puzzle-win32-shipping.sub_16C5C60> (016C5C60)!
+INT3 断点于 <puzzle-win32-shipping.sub_1A2F0C0> (01A2F0C0)!
+    Return: 00DCB000 ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 139B420 UNKNOWN 50B420
+    Param: ??? ??? ???
+    fun_showmsg_50B420(&第二关：验证失败，请重试)
+
+INT3 断点于 <puzzle-win32-shipping.sub_139B420> (0139B420)!
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C1C30 UNKNOWN 831C30
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: E0468C0E ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 209EFE0 UNKNOWN 120EFE0
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 9084890E ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16D6860 check2_str_to_FString_846860
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 2077AF0E ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C1C30 UNKNOWN 831C30
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 6040AF0E ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16D6790 UNKNOWN 846790
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: A083890E ???
+
+
+INT3 断点于 <puzzle-win32-shipping.sub_14D1570> (014D1570)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 20A03A0 UNKNOWN 12103A0
+    Param: ??? ??? ???
+    fun_showmsg_50B420(&第二关：验证失败，请重试)
+
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!

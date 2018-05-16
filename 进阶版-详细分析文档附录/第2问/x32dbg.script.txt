@@ -1,0 +1,100 @@
+﻿// jmp RunToAddrWithoutBP
+// ret
+
+// jmp findNumber
+// ret
+
+Task:
+  Run
+  cmp eip, 014D15A6
+  je LogEax
+  jmp Task
+  ret
+
+LogEax:
+  log ""
+  call GetFunctionName
+  log "    Param: {s:[esp+4]} {s:[esp+8]} {s:[esp+12]}"
+  
+  // if a valid address
+  $test1 = dword:[esp+4]
+  cmp $test1,00100000
+  jl LogEaxOK
+  cmp $test1,10000000
+  jg LogEaxOK
+  
+  // if a valid address
+  $test2 = dword:[[esp+4]]
+  cmp $test2,00100000
+  jl LogEaxOK
+  cmp $test2,10000000
+  jg LogEaxOK
+  
+  // if a msg (utf-16)
+  $test3 = dword:[[[esp+4]]]
+  cmp $test3,4E8C7B2C
+  je LogMsgFail
+  jmp LogEaxOK
+  
+LogEaxOK:
+  StepOver
+  cmp eip, 14D15A8
+  jne LogEaxOK
+  log "    Return: {mem;4@[esp+18]} {s:[esp+18]}"
+  log ""
+  log ""
+  jmp Task
+
+  
+  
+LogMsgFail:
+  log "    fun_showmsg_50B420(&"第二关：验证失败，请重试")"
+  log ""
+  jmp Task
+  
+  
+  
+RunToAddrWithoutBP:
+  Run
+  cmp eip, 016c5c60
+  jne RunToAddrWithoutBP
+  
+  
+GetFunctionName:
+  cmp eax,16D6860
+  je GetName_check2_str_to_FString_846860
+  cmp eax,16CAF10
+  je GetName_check2_GetUnicodeStringLength_83AF10
+  cmp eax,139B530
+  je GetName_check2_md5_50B530
+  cmp eax,139B340
+  je GetName_check2_get_a_md5_50B340
+  cmp eax,16C5C60
+  je GetName_check2_main_835C60
+  cmp eax,139B420
+  je GetName_fun_showmsg_50B420
+  
+  jmp GetFunctionName_DEFAULT
+  GetName_check2_str_to_FString_846860:
+    log "    Function: {eax} check2_str_to_FString_846860"
+    ret
+  GetName_check2_GetUnicodeStringLength_83AF10:
+    log "    Function: {eax} check2_GetUnicodeStringLength_83AF10"
+    ret
+  GetName_check2_md5_50B530:
+    log "    Function: {eax} check2_md5_50B530"
+    ret
+  GetName_check2_get_a_md5_50B340:
+    log "    Function: {eax} check2_get_a_md5_50B340"
+    ret
+  GetName_check2_main_835C60:
+    log "    Function: {eax} check2_main_835C60"
+    ret
+  GetName_fun_showmsg_50B420:
+    log "    Function: {eax} fun_showmsg_50B420"
+    ret
+  GetFunctionName_DEFAULT:
+    log "    Function: {eax} UNKNOWN {eax-(028B0110-01a20110}"
+    ret
+  
+findNumber:

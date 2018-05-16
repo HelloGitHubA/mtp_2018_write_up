@@ -1,0 +1,114 @@
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 209EF80 UNKNOWN 120EF80
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 2086090F ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16D6860 check2_str_to_FString_846860
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 5062060F &L"123456"
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16CAF10 check2_GetUnicodeStringLength_83AF10
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 06000000 ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 209EF80 UNKNOWN 120EF80
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 2086090F ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16D6860 check2_str_to_FString_846860
+    Param: &L"123456" ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: B06C060F &L"123456"
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 139B650 UNKNOWN 50B650
+    Param: ??? ??? ???
+INT3 断点于 <tmgs.ths> (0F8F9ED0)!
+线程 F30 已退出
+DLL已载入： 66F80000 D:\Tai7sy\Desktop\crackme\决赛2\Puzzle\Binaries\Win32\ph2.dll
+DLL已载入： 6EB40000 D:\Tai7sy\Desktop\crackme\决赛2\Puzzle\Binaries\Win32\libgcc_s_dw2-1.dll
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 00DFF200 ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 139B420 fun_showmsg_50B420
+    Param: ??? ??? ???
+INT3 断点于 <puzzle-win32-shipping.sub_139B420> (0139B420)!
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 8221D406 ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C1C30 UNKNOWN 831C30
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 00770E0F ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 209EFE0 UNKNOWN 120EFE0
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 0083090F ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16D6860 check2_str_to_FString_846860
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 80ECCC0E ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16C1C30 UNKNOWN 831C30
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 3085090F ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 16D6790 UNKNOWN 846790
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 9084090F ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A6 (014D15A6)!
+
+    Function: 20A03A0 UNKNOWN 12103A0
+    Param: ??? ??? ???
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 8221D406 ???
+
+
+INT3 断点于 puzzle-win32-shipping.014D15A8 (014D15A8)!
+    Return: 读取内存失败…… ???
+
+

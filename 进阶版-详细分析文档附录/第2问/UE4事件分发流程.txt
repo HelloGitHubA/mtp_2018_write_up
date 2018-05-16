@@ -1,0 +1,145 @@
+#define RESULT_DECL = void*const Z_Param__Result
+
+// UObject::ProcessInternal_62E860
+void UObject::ProcessInternal( UObject* Context, FFrame& Stack, RESULT_DECL)
+call eax
+
+// UObject::execLet_632310
+void UObject::execLet( UObject* Context, FFrame& Stack, RESULT_DECL)
+call eax
+
+// UObject::execContext_6319D0
+void UObject::execContext( UObject* Context, FFrame& Stack, RESULT_DECL )
+P_THIS->ProcessContextOpcode(Stack, RESULT_PARAM, /*bCanFailSilently=*/ false);
+
+// UObject::ProcessContextOpcode_62E0B0  
+void UObject::ProcessContextOpcode( FFrame& Stack, RESULT_DECL, bool bCanFailSilently )
+call eax
+
+// UObject::execFinalFunction_631D50
+void UObject::execFinalFunction( UObject* Context, FFrame& Stack, RESULT_DECL )
+P_THIS->CallFunction( Stack, RESULT_PARAM, (UFunction*)Stack.ReadObject() );
+
+// UObject::CallFunction_628860
+void UObject::CallFunction( FFrame& Stack, RESULT_DECL, UFunction* Function )
+Function->Invoke(this, Stack, RESULT_PARAM);
+
+// Function_Invoke_641570
+void UFunction::Invoke(UObject* Obj, FFrame& Stack, RESULT_DECL)
+return (*Func)(Obj, Stack, RESULT_PARAM);
+
+
+
+点击按钮事件
+Function_Invoke_641570 -> UObject::ProcessInternal_62E860 -> UObject::CallFunction_628860 -> UObject::ProcessInternal_62E860 ->
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+重复一次
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+
+check1_50AFC0
+
+UObject::execVirtualFunction_634510 -> UObject::CallFunction_628860 -> UObject::ProcessInternal_62E860 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570 -> fun_showmsg_50B420(&0,&"第一关: 恭喜验证成功")
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+重复一次
+重复一次
+
+UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0 -> UObject::execFinalFunction_631D50("第一关: 恭喜验证成功") -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0 -> UObject::execFinalFunction_631D50 -> 
+UObject::execVirtualFunction_634510 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+重复一次
+
+
+
+
+
+
+
+
+
+
+
+点击按钮2事件
+Function_Invoke_641570 -> UObject::ProcessInternal_62E860 -> UObject::execVirtualFunction_634510 -> UObject::CallFunction_628860 -> UObject::ProcessInternal_62E860 ->
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+重复一次
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570 -> maybe_check2_50B530
+
+UObject::execVirtualFunction_634510 -> UObject::CallFunction_628860 -> UObject::ProcessInternal_62E860 -> UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570 -> v2_GetUnicodeStringLength_83AF10
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+循环N个 UObject::execLet_632310
+
+UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570 -> v2_GetUnicodeStringLength_83AF10
+
+UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+重复一次
+
+UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execLet_632310 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0  -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570 -> maybe_check2_50B530
+
+UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> UObject::execFinalFunction_631D50 -> UObject::CallFunction_628860 ->Function_Invoke_641570 -> EqualEqual_StrStr
+
+UObject::execVirtualFunction_634510 -> UObject::CallFunction_628860 -> UObject::ProcessInternal_62E860 -> UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0 -> UObject::execFinalFunction_631D50("第二关：验证失败，请重试")
+
+UObject::CallFunction_628860 ->Function_Invoke_641570
+
+UObject::execContext_6319D0 -> UObject::ProcessContextOpcode_62E0B0 -> sub_631DF0 -> UObject::execFinalFunction_631D50 -> 
+UObject::execVirtualFunction_634510 -> UObject::CallFunction_628860 ->Function_Invoke_641570
+重复一次
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
